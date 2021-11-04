@@ -1,6 +1,7 @@
-import React from 'react'
-import Layout from '../components/Layout'
-import { StaticImage } from 'gatsby-plugin-image'
+import React from "react"
+import Layout from "../components/Layout"
+import { StaticImage } from "gatsby-plugin-image"
+import AllRecipes from "../components/AllRecipes"
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
             src="../assets/images/main.jpeg"
             alt="eggs"
             className="hero-img"
-            placeholder="tracedSVG"
+            placeholder="blurred"
             layout="fullWidth"
           ></StaticImage>
           <div className="hero-container">
@@ -21,8 +22,8 @@ const Home = () => {
             </div>
           </div>
         </header>
+        <AllRecipes />
       </main>
-      <h1>Home Page</h1>
     </Layout>
   )
 }
