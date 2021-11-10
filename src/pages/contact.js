@@ -23,7 +23,13 @@ const Contact = ({data}) => {
             </p>
           </article>
           <article>
-            <form className="form contact-form">
+            <form
+              name="contact"
+              method="POST"
+              className="form contact-form"
+              netlify-honeypot="bot-field"
+              data-netlify="true"
+            >
               <div className="form-row">
                 <label htmlFor="name">your name</label>
                 <input type="text" name="name" id="name" />

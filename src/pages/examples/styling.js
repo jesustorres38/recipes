@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../../components/Layout"
 import "../../assets/examples/example-global.css"
 import { item3 } from "../../assets/examples/example.module.css"
+import styled from "styled-components"
 
 const styling = () => {
   return (
@@ -17,7 +18,7 @@ const styling = () => {
           </li>
           <li className="item-2">Global CSS</li>
           <li className={item3}>CSS Module</li>
-          <li className="item-4">Styled-Components</li>
+          <ListItem className="item-4">Styled-Components</ListItem>
         </ol>
 
         <ol>
@@ -37,13 +38,23 @@ const styling = () => {
             podemos crear un modulo de css, la diferencia con importar modulos
             css y archivos tradicionales css es que con los modulos podemos
             importar clases especificas y no nos preocupamos por names-colisions
-            ya que modules css agrega un classname unico a cada elemento haciendo
-            cada estilo sea unico en cada componente/pagina.
+            ya que modules css agrega un classname unico a cada elemento
+            haciendo cada estilo sea unico en cada componente/pagina.
+          </li>
+          <li>
+            Nos dan modularidad, no nos preocupamos por names-colision ya que
+            funciona similar a css modules, nos deja trabajar con variables pero
+            debemos configurarlo junto con el plugin de gatsby. No hace falta
+            usar clases. El componente y los estilos en un solo archivo.
           </li>
         </ol>
       </main>
     </Layout>
   )
 }
+
+const ListItem = styled.li`
+  color: green;
+`
 
 export default styling

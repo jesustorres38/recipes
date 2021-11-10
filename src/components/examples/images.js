@@ -7,7 +7,7 @@ const Images = () => {
   return (
     <Wrapper>
       <img src={Big} alt="food" />
-      <StaticImage src='../assets/images/big.jpg' alt='biggg' />
+      <StaticImage src='../../assets/images/big.jpg' alt='biggg' />
       <h2>Gatsby Image</h2>
     </Wrapper>
   )

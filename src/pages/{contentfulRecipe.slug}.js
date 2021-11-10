@@ -112,8 +112,8 @@ const RecipeTemplate = ({ data }) => {
 }
 
 export const query = graphql`
-  query getSingleRecipe($title: String) {
-    contentfulRecipe(title: { eq: $title }) {
+  query getSingleRecipe($slug: String) {
+    contentfulRecipe(slug: { eq: $slug }) {
       title
       cookTime
       content {
