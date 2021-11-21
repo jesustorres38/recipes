@@ -28,7 +28,7 @@ const Navbar = () => {
             activeClassName="active-link"
             onClick={() => setShow(false)}
           >
-            recipes
+            recetas
           </Link>
           <Link
             to="/tags"
@@ -36,7 +36,7 @@ const Navbar = () => {
             activeClassName="active-link"
             onClick={() => setShow(false)}
           >
-            tags
+            categorias
           </Link>
           <Link
             to="/about"
@@ -44,11 +44,11 @@ const Navbar = () => {
             activeClassName="active-link"
             onClick={() => setShow(false)}
           >
-            about
+            acerca
           </Link>
           <div className="nav-link contact-link">
             <Link to="/contact" className="btn" onClick={() => setShow(false)}>
-              contact
+              contacto
             </Link>
           </div>
         </div>

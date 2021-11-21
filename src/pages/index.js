@@ -19,8 +19,8 @@ const Home = () => {
           ></StaticImage>
           <div className="hero-container">
             <div className="hero-text">
-              <h1>simple recipes</h1>
-              <h4>no fluff, just recipes</h4>
+              <h1>Recetas Veganas</h1>
+              <h4>Directo al grano</h4>
             </div>
           </div>
         </header>

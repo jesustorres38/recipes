@@ -26,12 +26,14 @@ const Contact = ({data}) => {
           </article>
           <article>
             <form
-              name="contact"
+              name="Contact Form"
               method="POST"
               className="form contact-form"
               netlify-honeypot="bot-field"
               data-netlify="true"
+              action="/thank-you"
             >
+              <input type="hidden" name="form-name" value="Contact Form" />
               <div className="form-row">
                 <label htmlFor="name">your name</label>
                 <input type="text" name="name" id="name" />

@@ -14,7 +14,9 @@ function About({ data }) {
       <main className="page">
         <section className="about-page">
           <article>
-            <h2>I'm baby coloring book poke taxidermy</h2>
+            <h2>
+              “Si quieres cambiar el mundo, empieza por cambiar tú primero”
+            </h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adip, Lorem ipsum dolor
               sit amet, consectetur adip
