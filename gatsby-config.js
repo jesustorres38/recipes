@@ -10,8 +10,8 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Simply Recipes",
-    description: "Nice and clean recipes site",
+    title: "Recetas Veganas",
+    description: "Recetas veganas sencillas de hacer",
     author: "@jesustorres38",
     person: { name: "Jesus", age: 29 },
     simpleData: ["item1", "item2"],
@@ -25,6 +25,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, // Needed for dynamic images
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
